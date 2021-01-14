@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  top:0px;
+  left:0px;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  background-color: black;
+  color: white;
+  opacity: .8;
+  margin: 0;
+  padding: 0;
+
+  .logo {
+    display: inherit;
+    img {
+      object-fit: contain;
+      height: 100%;
+    }
+  }
+
+}
